@@ -27,6 +27,8 @@ The functionality I created is more of a utility piece of code that could be use
 
 The only other thing of note is that the pseudorandom number generator used in the extension class uses a singleton type approach.  It's only created once when the static extension class is referenced.  The reason for this approach is that the RNG (random number generator) can produce identical sequences of random numbers if multiple instances are instantiated in a tight loop. The better approach is to only instantiate one RNG object and use sequential calls to it for generating random numbers.
 
+I used Visual Studio Express 2015 and C# (4.5) to create the solution.
+
 Thank you for taking the time to view my submission.
 
 Todd Pinel.
